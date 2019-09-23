@@ -81,7 +81,7 @@ with open("/Users/peirangxu/Desktop/Python-challenge/PyBoss/employee_data.csv",
         #Change the format of SSN
         SSN= list(row[3])
         SSN[0:3]=("*","*","*")
-        SSN[4:6]=("*","*", "*")
+        SSN[4:6]=("*","*")
         join_SSN = "".join(SSN)
         SSN_final.append(join_SSN)   
 
