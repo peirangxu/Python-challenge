@@ -1,6 +1,6 @@
 import csv
 
-with open("/Users/peirangxu/Desktop/Resources/budget_data.csv", newline = "") as csvfile:
+with open("/Users/peirangxu/Desktop/Python-challenge/PyBank/budget_data.csv", newline = "") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     next(csvreader)  ## skip the header of the csv file
     
